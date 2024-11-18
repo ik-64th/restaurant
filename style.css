@@ -1,0 +1,212 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(256, 256, 256);
+    color: white;
+    position: relative;
+  }
+
+  .nav-link{
+    display: flex;
+    list-style-type:none;
+    position: absolute;
+    gap: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav-link li{
+    display: inline;
+    padding-top: 100px;
+  }
+
+  .nav-link li a{
+    text-decoration: none;
+    color: rgb(182, 93, 9);
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+
+  .email-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto; /* Push to far right */
+    position: relative;
+    top: 50px;
+    right: 30px;
+  }
+
+  .email-links button {
+    /* background-color: rgb(182, 93, 9); */
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+
+  }
+
+  .email-links a{
+    text-decoration: none;
+    color:  rgb(182, 93, 9);
+    font-weight: bold;
+  }
+
+  .email-links a:hover {
+    color:rgb(218, 152, 66); /* Change hover color if desired */
+  }
+
+  .nav-link a:hover{
+    color:rgb(218, 122, 66);
+  }
+
+  .text-content{
+    margin-left: 160px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-style: normal;
+    font-family:sans-serif;
+  }
+
+  .h-img{
+    background-image: url("images/pexels-valeriya-1893560.jpg");
+    width: 400px;
+    height: 300px;
+    position:relative;
+    background-size: cover;
+    left: 70%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    bottom: 100px;
+
+  }
+
+  .paragraph{
+    position: relative;
+    bottom: 300px;
+  }
+
+
+  .menu{
+    position: relative;
+    bottom: 250px;
+  }
+
+  .menu button{
+    background-color: rgb(182, 93, 9);
+    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+  }
+
+.heading2{
+  position: relative;
+  bottom: 100px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.pastries-content{
+  width:1000px;
+  height: 400px;
+  background-color: white;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px ;
+  padding-top: 15px;
+  
+}
+
+.pastry1{
+  width: 250px; 
+  height: 300px;
+  background-color: white;
+  border: 1px solid;
+}
+.pastry2{
+  width: 250px; 
+  height: 300px;
+  background-color: white;
+}
+.pastry3{
+  width: 250px; 
+  height: 300px;
+  background-color: white;
+}
+
+.pic1{
+  width: 250px;
+  height: 150px;
+  background-color: black;
+  background-image: url("images/chocolate\ cake.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.pic2{
+  width: 250px;
+  height: 150px;
+  background-color: black;
+  background-image: url("images/cinnamon.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+ .pic3{
+  width: 250px;
+  height: 150px;
+  background-color: black;
+  background-image: url("images/muffins.jpg");
+  background-position: center;
+   background-size: cover; 
+ }
+
+ .footer{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(182, 93, 9);
+  display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+ }
+
+ .footer-link{
+  display: flex;
+  list-style-type:none;
+  position: absolute;
+  gap: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  
+ }
+
+ .footer-link li{
+  display: inline;
+ }
+
+ .footer-link li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+
+ }
+
+ .footer-link li a:hover{
+  color: burlywood;
+ }
